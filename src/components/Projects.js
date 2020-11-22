@@ -31,19 +31,19 @@ const Projects = () => {
         animate={{ y: 0 }}
         transition={{ delay: 0.6, type: "spring", stiffness: 30 }}
       >
-        <h3>The Way Shop</h3>
+        <h3>Shopping</h3>
         <h5>Features</h5>
         <ul>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
+          <li>html </li>
+          <li>css</li>
+          <li>Vanill js</li>
+          <li>Sass</li>
         </ul>
         <button className="prev">
-          <a href="#">Preview</a>
+          <a href="https://moamen2020.github.io/shopping-vanill-js/index.html" target="_blank">Preview</a>
         </button>
         <button className="git">
-          <a href="#">Github</a>
+          <a href="https://github.com/moamen2020/shopping-vanill-js" target="_blank">Github</a>
         </button>
       </motion.div>
       {/*  */}
@@ -53,19 +53,16 @@ const Projects = () => {
         animate={{ x: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
       >
-        <h3>The Way Shop</h3>
+        <h3>COVID-19</h3>
         <h5>Features</h5>
         <ul>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
+          <li>React js</li>
         </ul>
         <button className="prev">
-          <a href="#">Preview</a>
+          <a href="https://moamen2020.github.io/COVID_19/" target="_blank">Preview</a>
         </button>
         <button className="git">
-          <a href="#">Github</a>
+          <a href="https://github.com/moamen2020/COVID_19" target="_blank">Github</a>
         </button>
       </motion.div>
       {/*  */}
@@ -75,19 +72,16 @@ const Projects = () => {
         animate={{ x: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
       >
-        <h3>The Way Shop</h3>
+        <h3>Dolla</h3>
         <h5>Features</h5>
         <ul>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
+          <li>React js</li>
         </ul>
         <button className="prev">
-          <a href="#">Preview</a>
+          <a href="https://5faff999a30abc8e2f54ad9e--upbeat-visvesvaraya-c7e62c.netlify.app/" target="_blank">Preview</a>
         </button>
         <button className="git">
-          <a href="#">Github</a>
+          <a href="https://github.com/moamen2020/dolla" target="_blank">Github</a>
         </button>
       </motion.div>
       {/*  */}
@@ -97,19 +91,16 @@ const Projects = () => {
         animate={{ y: 0 }}
         transition={{ delay: 0.6, type: "spring", stiffness: 30 }}
       >
-        <h3>The Way Shop</h3>
+        <h3>Netflix</h3>
         <h5>Features</h5>
         <ul>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
+          <li>React js</li>
         </ul>
         <button className="prev">
-          <a href="#">Preview</a>
+          <a href="https://5fb142cd1db4d7580a563ad7--boring-brahmagupta-5406c1.netlify.app/" target="_blank">Preview</a>
         </button>
         <button className="git">
-          <a href="#">Github</a>
+          <a href="https://github.com/moamen2020/netflix-" target="_blank">Github</a>
         </button>
       </motion.div>
       {/*  */}
@@ -119,7 +110,7 @@ const Projects = () => {
         animate={{ x: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
       >
-        <h3>The Way Shop</h3>
+        <h3>E-commerce</h3>
         <h5>Features</h5>
         <ul>
           <li>HTML5 & CSS3</li>
@@ -128,10 +119,10 @@ const Projects = () => {
           <li>HTML5 & CSS3</li>
         </ul>
         <button className="prev">
-          <a href="#">Preview</a>
+          <a href="https://5faa276fd674a8343c9b8b72--e-comme.netlify.app/" target="_blank">Preview</a>
         </button>
         <button className="git">
-          <a href="#">Github</a>
+          <a href="https://github.com/moamen2020/E-commerce-context" target="_blank">Github</a>
         </button>
       </motion.div>
     </div>
