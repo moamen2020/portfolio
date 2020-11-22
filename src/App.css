@@ -582,8 +582,6 @@ body {
 
 /* Start Contact */
 
-/* End Contact */
-
 @media (max-width: 576px) {
   .contact {
     margin-top: 60px;
@@ -624,6 +622,10 @@ body {
     color: white;
     margin-top: 20px;
     border-radius: 6px;
+    outline: none;
+  }
+
+  .contact button:focus {
     outline: none;
   }
 }
@@ -668,6 +670,10 @@ body {
     color: white;
     margin-top: 20px;
     border-radius: 6px;
+    outline: none;
+  }
+
+  .contact button:focus {
     outline: none;
   }
 }
@@ -767,5 +773,4 @@ body {
   }
 }
 
-@media (min-width: 1140px) {
-}
+/* End Contact */

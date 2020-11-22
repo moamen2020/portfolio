@@ -10,19 +10,18 @@ const Projects = () => {
         animate={{ x: 0 }}
         transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
       >
-        <h3>The Way Shop</h3>
+        <h3>Data Web</h3>
         <h5>Features</h5>
         <ul>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
-          <li>HTML5 & CSS3</li>
+          <li>html</li>
+          <li>css</li>
+          <li>JQuery</li>
         </ul>
         <button className="prev">
-          <a href="#">Preview</a>
+          <a href="https://moamen2020.github.io/Data_Web" target="_blank">Preview</a>
         </button>
         <button className="git">
-          <a href="#">Github</a>
+          <a href="github.com/moamen2020/Data_Web" target="_blank">Github</a>
         </button>
       </motion.div>
       {/*  */}
