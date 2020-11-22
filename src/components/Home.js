@@ -25,7 +25,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
         >
-          Downloud CV
+          <a href='https://drive.google.com/file/d/1hM2HG_4pYtALBbkBTxqih6JvymkkWwY1/view?usp=sharing' target="_blank" rel="noopener noreferrer">Downloud CV</a>
         </motion.button>
       </div>
     </div>

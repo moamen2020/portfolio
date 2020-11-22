@@ -1,5 +1,5 @@
 import React from "react";
-import img from "../../src/IMG.jpg";
+import img from "../img.svg";
 import { motion } from "framer-motion";
 
 const About = () => {
@@ -41,7 +41,7 @@ const About = () => {
               <strong class="str-3">Nationality </strong> : Egypt
             </span>
             <span class="inf">
-              <strong class="str-4">Languages </strong> : Arabic, + good English
+              <strong class="str-4">Languages </strong> : Arabic + good English
             </span>
             <span class="inf">
               <strong class="str-5">Address </strong> : Alalf maskan, Ain shams
@@ -51,10 +51,10 @@ const About = () => {
               <strong class="str-6">Freelance </strong> : Available
             </span>
             <span class="inf">
-              <strong class="str-7">E-mail </strong> : moamen_omar@gmail.com
+              <strong class="str-7">E-mail </strong> : moamen.ismail70@gmail.com
             </span>
             <span class="inf">
-              <strong class="str-8">Phone </strong> : 01144944981, 01203891195
+              <strong class="str-8">Phone </strong> : 011 449 449 81
             </span>
           </motion.div>
         </div>

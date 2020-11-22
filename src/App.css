@@ -105,12 +105,10 @@ body {
   display: inline-block;
   margin-top: 25px;
   font-size: 17px;
-  padding: 12px 20px;
+  padding: 10px 0px;
   background: #056cd7;
   position: relative;
   border: 0;
-  color: white;
-  cursor: pointer !important;
   outline: none !important;
   margin-bottom: 10px;
 }
@@ -140,6 +138,13 @@ body {
   width: 100%;
 }
 
+.home button a {
+  text-decoration: none;
+  padding: 12px 20px;
+  color: white;
+  cursor: pointer !important;
+}
+
 @media (max-width: 576px) {
   .home {
     margin-top: 220px;
@@ -164,7 +169,7 @@ body {
     display: inline-block;
     margin-top: 25px;
     font-size: 17px;
-    padding: 12px 20px;
+    padding: 10px 0px;
     background: #056cd7;
     position: relative;
     border: 0;
@@ -233,6 +238,7 @@ body {
 
 .information > h2 > span {
   color: #000;
+  text-shadow: 0px 0px 20px #0b3b86;
 }
 
 .inf {
@@ -268,11 +274,11 @@ body {
 }
 
 .str-7 {
-  padding-right: 55px;
+  padding-right: 50px;
 }
 
 .str-8 {
-  padding-right: 47px;
+  padding-right: 50px;
 }
 
 @media (max-width: 576px) {
@@ -284,6 +290,7 @@ body {
   }
   .information > h2 > span {
     font-size: 40px;
+    text-shadow: 0px 0px 20px #0b3b86;
   }
 }
 

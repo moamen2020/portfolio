@@ -18,14 +18,14 @@ const Skills = () => {
             animate={{ x: 0 }}
             transition={{ delay: 1 }}
           >
-            HTML & HTML5
+            HTML
           </motion.li>
           <motion.li
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
             transition={{ delay: 1.3 }}
           >
-            CSS & CSS3
+            CSS
           </motion.li>
           <motion.li
             initial={{ x: "100vw" }}
@@ -39,21 +39,21 @@ const Skills = () => {
             animate={{ x: 0 }}
             transition={{ delay: 1.9 }}
           >
-            SASS
+            Javascript
           </motion.li>
           <motion.li
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
             transition={{ delay: 2.2 }}
           >
-            Javascript
+            JQuery
           </motion.li>
           <motion.li
             initial={{ x: "100vw" }}
             animate={{ x: 0 }}
             transition={{ delay: 2.5 }}
           >
-            JSON & AJAX
+            SASS
           </motion.li>
           <motion.li
             initial={{ x: "100vw" }}
@@ -86,7 +86,7 @@ const Skills = () => {
           <a rel="_blank" href="https://github.com/moamen2020">
             GitHub
           </a>{" "}
-          for more details or just <a href="#">contact me</a>
+          for more details or just <a href="mailto:moamen.ismail70@gmailcom">contact me</a>
         </motion.p>
       </div>
     </div>
