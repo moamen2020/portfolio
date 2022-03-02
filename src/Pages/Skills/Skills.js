@@ -5,9 +5,10 @@ import { Container, Row, Col } from 'react-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Skills.css';
 
+
 const Skills = () => {
   return (
-    <Container>
+    <Container className="overflow-hidden">
       <Row>
         <Col sm={12} md={6} className="ml-5" >
           <motion.h2

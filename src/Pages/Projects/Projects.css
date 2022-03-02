@@ -1,0 +1,71 @@
+
+.project {
+  background: linear-gradient(90deg, #00000073, #0000005e);
+  padding: 45px 35px;
+  border-radius: 20px;
+  margin: 30px 50px;
+  color: white;
+}
+  
+.project h3 {
+  color: #0a3478;
+  font-weight: bold;
+}
+
+.project ul {
+  color: #505050;
+}
+
+.project .prev {
+  padding: 6px 0px;
+  background: #0a367c;
+  color: #031026;
+  border: 1px solid #0a357a;
+  margin-right: 15px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.project .prev a {
+  padding: 7px 10px;
+}
+
+.project .prev:hover {
+  background: transparent;
+  color: #0a3880;
+  border: 1px solid #0a357a;
+}
+
+.project .prev a:hover {
+  text-decoration: none !important;
+}
+
+.project .git {
+  padding: 6px 0px;
+  background: transparent;
+  color: #0a3880;
+  border: 1px solid #0a357a;
+  margin-right: 15px;
+  outline: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.project .git a {
+  padding: 7px 10px;
+}
+
+.project .git:hover {
+  background: #0a367c;
+  color: #031026;
+  border: 1px solid #0a357a;
+}
+
+.project .git a:hover {
+  text-decoration: none !important;
+}
+  
