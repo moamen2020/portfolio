@@ -15,18 +15,18 @@ const Projects = () => {
             animate={{ x: 0 }}
             transition={{ delay: 0.5, type: "spring", stiffness: 50 }}
           >
-            <h3>Data Web</h3>
+            <h3>E-commerce</h3>
             <h5>Features</h5>
             <ul>
               <li>html</li>
               <li>css</li>
-              <li>JQuery</li>
+              <li>React js / Redux</li>
             </ul>
             <button className="prev">
-              <a href="https://moamen2020.github.io/Data_Web" target="_blank" rel="noopener noreferrer">Preview</a>
+              <a href="https://5faa276fd674a8343c9b8b72--e-comme.netlify.app" target="_blank" rel="noopener noreferrer">Preview</a>
             </button>
             <button className="git">
-              <a href="https://github.com/moamen2020/Data_Web" target="_blank" rel="noopener noreferrer">Github</a>
+              <a href="https://github.com/moamen2020/E-commerce-context" target="_blank" rel="noopener noreferrer">Github</a>
             </button>
           </motion.div>
         </Col>
@@ -177,18 +177,18 @@ const Projects = () => {
             animate={{ x: 0 }}
             transition={{ delay: 0.4, type: "spring", stiffness: 50 }}
           >
-            <h3>E-commerce</h3>
+            <h3>Data Web</h3>
             <h5>Features</h5>
             <ul>
               <li>html</li>
               <li>css</li>
-              <li>React js / context</li>
+              <li>JQuery</li>
             </ul>
             <button className="prev">
-              <a href="https://5faa276fd674a8343c9b8b72--e-comme.netlify.app/" target="_blank"  rel="noopener noreferrer">Preview</a>
+              <a href="https://moamen2020.github.io/Data_Web" target="_blank" rel="noopener noreferrer">Preview</a>
             </button>
             <button className="git">
-              <a href="https://github.com/moamen2020/E-commerce-context" target="_blank"  rel="noopener noreferrer">Github</a>
+              <a href="https://github.com/moamen2020/Data_Web" target="_blank" rel="noopener noreferrer">Github</a>
             </button>
           </motion.div>
         </Col>

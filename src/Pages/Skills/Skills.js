@@ -15,6 +15,7 @@ const Skills = () => {
             initial={{ y: "-100vw" }}
             animate={{ y: 0 }}
             transition={{ delay: 0.7 }}
+            className="title"
           >
             Skills & Experience
           </motion.h2>

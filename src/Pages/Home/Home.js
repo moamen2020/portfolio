@@ -10,6 +10,7 @@ const Home = () => {
           initial={{ x: "-100vw" }}
           animate={{ x: 0 }}
           transition={{ delay: 1 }}
+          className="name"
         >
           I'm <span>Moamen Omar</span>
         </motion.h2>
@@ -26,7 +27,7 @@ const Home = () => {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
         >
-          <a href='#' target="_blank" rel="noopener noreferrer">Downloud CV</a> 
+          <a href='https://drive.google.com/u/0/uc?id=1XlYBFzgiFtbUnb50A9KEdcjJlrKuW0Ad&export=download' target="_blank" rel="noopener noreferrer">Downloud CV</a> 
         </motion.button>
       </div>
     </div>

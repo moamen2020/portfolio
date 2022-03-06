@@ -38,7 +38,7 @@ const About = () => {
               <strong class="str-1">Full Name </strong> : Moamen Omar
             </span>
             <span class="inf">
-              <strong class="str-2">Age </strong> : 20 Years
+              <strong class="str-2">Age </strong> : 21 Years
             </span>
             <span class="inf">
               <strong class="str-3">Nationality </strong> : Egypt

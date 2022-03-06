@@ -7,13 +7,13 @@
     overflow: hidden;
   }
   
-  .home h2 {
+  .home .name {
     font-size: 60px;
-    color: #FFF;
     font-weight: 500;
+    color: white;
   }
   
-  .home h2 span {
+  .home .name span {
     color: #0b3b87;
     font-size: 55px;
   }
@@ -76,10 +76,19 @@
     .home {
       margin-top: 60%;
     }
-  
-    .home h2 {
+    .home .name {
       text-shadow: 0px 0px 3px #6e6e6e;
+      font-size: 50px;
     }
+    
+    .home .name span {
+      font-size: 40px;
+    }
+
+    .home .name-job {
+      font-size: 30px;
+    }
+  
   }
   
   @media (min-width: 576px) {
