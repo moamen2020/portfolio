@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import './Home.css'
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -12,7 +12,7 @@ const Home = () => {
           transition={{ delay: 1 }}
           className="name"
         >
-          I'm <span>Moamen Omar</span>
+          Hello Brother's
         </motion.h2>
         <motion.span
           className="name-job"
@@ -20,14 +20,20 @@ const Home = () => {
           animate={{ x: 0 }}
           transition={{ delay: 1 }}
         >
-          Front End Developer
+          Full Stack Developer
         </motion.span>
         <motion.button
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
         >
-          <a href='https://drive.google.com/u/0/uc?id=1XlYBFzgiFtbUnb50A9KEdcjJlrKuW0Ad&export=download' target="_blank" rel="noopener noreferrer">Downloud CV</a> 
+          <a
+            href="https://drive.google.com/u/0/uc?id=1XlYBFzgiFtbUnb50A9KEdcjJlrKuW0Ad&export=download"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Downloud CV
+          </a>
         </motion.button>
       </div>
     </div>

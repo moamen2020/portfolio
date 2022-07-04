@@ -1,75 +1,79 @@
 /* Start Navbar */
+.navbar {
+
+  z-index: 10;
+}
 
 .list {
+  list-style: none;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 20px;
+}
+
+.nav-links {
+  margin: 20px 20px 0;
+}
+
+.nav-ancor {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-ancor:hover {
+  color: #007bff;
+}
+
+@media (max-width: 576px) {
+  .list {
     list-style: none;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
-}
+  }
 
-.nav-links {
-    margin: 20px 20px 0;
-}
+  .nav-links {
+    margin: 20px 10px 0;
+  }
 
-.nav-ancor {
-    color: white;
-    text-decoration: none;
-}
-
-.nav-ancor:hover {
-    color: #007bff;
-}
-
-@media (max-width: 576px) {
-    .list {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .nav-links {
-        margin: 20px 10px 0;
-    }
-
-    .nav-links:last-of-type {
-        padding-right: 23px;
-    }
+  .nav-links:last-of-type {
+    padding-right: 23px;
+  }
 }
 
 @media (min-width: 576px) {
-    .list {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .nav-links {
-        margin: 20px 20px 0;
-    }
+  .nav-links {
+    margin: 10px 20px 10px
+  }
 }
 
 @media (min-width: 768px) {
-    .list {
-        list-style: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .nav-links {
-        margin: 20px 20px 0;
-    }
+  .nav-links {
+    margin: 10px 20px 10px
+  }
 
-    .nav-ancor {
-        color: white;
-    }
+  .nav-ancor {
+    color: white;
+  }
 
-    .nav-ancor:hover {
-        text-decoration: none;
-    }
+  .nav-ancor:hover {
+    text-decoration: none;
+  }
 }
 
 /* End Navbar */

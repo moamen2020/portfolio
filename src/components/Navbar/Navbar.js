@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import "./Navbar.css"
+import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <>
+    <div>
       <motion.nav
         initial={{ y: -250 }}
         animate={{ y: -10 }}
@@ -39,7 +39,7 @@ const Navbar = () => {
           </li>
         </ul>
       </motion.nav>
-    </>
+    </div>
   );
 };
 

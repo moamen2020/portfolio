@@ -1,110 +1,111 @@
 .home {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 30%;
-    overflow: hidden;
-  }
-  
-  .home .name {
-    font-size: 60px;
-    font-weight: 500;
-    color: white;
-  }
-  
-  .home .name span {
-    color: #0b3b87;
-    font-size: 55px;
-  }
-  
-  .home .name-job {
-    font-size: 40px;
-    display: block;
-    color: #FFF;
-    font-weight: 500;
-  }
-  
-  .home button {
-    display: inline-block;
-    margin-top: 25px;
-    font-size: 17px;
-    padding: 10px 0px;
-    background: #056cd7;
-    position: relative;
-    border: 0;
-    outline: none !important;
-    margin-bottom: 10px;
-  }
-  
-  .home button:after,
-  .home button:before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 3px;
-    background: #056cd7;
-    transition: 0.5s ease-in-out;
-  }
-  
-  .home button:after {
-    bottom: -5px;
-    right: 0px;
-  }
-  
-  .home button:before {
-    top: -5px;
-    left: 0px;
-  }
-  
-  .home button:hover:after,
-  .home button:hover:before {
-    width: 100%;
-  }
-  
-  .home button a {
-    text-decoration: none;
-    padding: 12px 20px;
-    color: white;
-    cursor: pointer !important;
-  }
-  
-  
-  
-  
-  @media (max-width: 576px) {
-    .home {
-      margin-top: 60%;
-    }
-    .home .name {
-      text-shadow: 0px 0px 3px #6e6e6e;
-      font-size: 50px;
-    }
-    
-    .home .name span {
-      font-size: 40px;
-    }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 30%;
+  overflow: hidden;
+}
 
-    .home .name-job {
-      font-size: 30px;
-    }
-  
+.home .name {
+  font-size: 60px;
+  font-weight: 500;
+  color: white;
+}
+
+.home .name span {
+  color: #0b3b87;
+  font-size: 55px;
+}
+
+.home .name-job {
+  font-size: 40px;
+  display: block;
+  color: #FFF;
+  font-weight: 500;
+}
+
+.home button {
+  display: inline-block;
+  margin-top: 25px;
+  font-size: 17px;
+  padding: 10px 0px;
+  background: #056cd7;
+  position: relative;
+  border: 0;
+  outline: none !important;
+  margin-bottom: 10px;
+}
+
+.home button:after,
+.home button:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background: #056cd7;
+  transition: 0.5s ease-in-out;
+}
+
+.home button:after {
+  bottom: -5px;
+  right: 0px;
+}
+
+.home button:before {
+  top: -5px;
+  left: 0px;
+}
+
+.home button:hover:after,
+.home button:hover:before {
+  width: 100%;
+}
+
+.home button a {
+  text-decoration: none;
+  padding: 12px 20px;
+  color: white;
+  cursor: pointer !important;
+}
+
+
+
+
+@media (max-width: 576px) {
+  .home {
+    margin-top: 40%;
   }
-  
-  @media (min-width: 576px) {
-    .home {
-      margin-top: 60%;
-    }
+
+  .home .name {
+    text-shadow: 0px 0px 3px #6e6e6e;
+    font-size: 50px;
   }
-  
-  @media (min-width: 768px) {
-    .home {
-      margin-top: 50%;
-    }
+
+  .home .name span {
+    font-size: 40px;
   }
-  
-  @media (min-width: 992px) {
-    .home {
-      margin-top: 20%;
-    }
+
+  .home .name-job {
+    font-size: 30px;
   }
+
+}
+
+@media (min-width: 576px) {
+  .home {
+    margin-top: 40%;
+  }
+}
+
+@media (min-width: 768px) {
+  .home {
+    margin-top: 35%;
+  }
+}
+
+@media (min-width: 992px) {
+  .home {
+    margin-top: 20%;
+  }
+}
