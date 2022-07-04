@@ -8,7 +8,8 @@ import Projects from "./Pages/Projects/Projects";
 import Contact from "./Pages/Contact/Contact";
 import BackgroundAnimation from "./components/BackgroundAnimation/BackgroundAnimation";
 import Lottie from "react-lottie";
-import data from "./98431-loading-animation.json";
+// import data from "./98431-loading-animation.json";
+import data from "./97591-loading.json";
 
 function App() {
   const [show, setShow] = useState(false);
