@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { Typewriter } from "react-simple-typewriter";
 import "./Home.css";
 
 const Home = () => {
@@ -12,26 +13,32 @@ const Home = () => {
           transition={{ delay: 1 }}
           className="name"
         >
-          Hello Brother's
+          Hello Brother
         </motion.h2>
         <motion.span
           className="name-job"
           initial={{ x: "100vw" }}
           animate={{ x: 0 }}
           transition={{ delay: 1 }}
+          style={{ color: "#0d6efd", fontWeight: "bold" }}
         >
-          Full Stack Developer
+          I'm A
+          <Typewriter
+            words={[" Moamen Omar", " Full Stack developer"]}
+            loop
+            cursor
+            cursorStyle="_"
+            typeSpeed={70}
+            deleteSpeed={50}
+            delaySpeed={1000}
+          />
         </motion.span>
         <motion.button
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
         >
-          <a
-            href="https://drive.google.com/u/0/uc?id=1XlYBFzgiFtbUnb50A9KEdcjJlrKuW0Ad&export=download"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="#" target="_blank" rel="noopener noreferrer">
             Downloud CV
           </a>
         </motion.button>
